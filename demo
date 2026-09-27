@@ -1,2 +1,5 @@
-//Hi this only for demo
-printf{"hello world"}
+# GitHub Actions example
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
